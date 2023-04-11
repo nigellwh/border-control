@@ -1,0 +1,6 @@
+﻿Variables,VL_Initial,VL_GrowthRate,VL_PeakLevel,VL_DeclineRate,Delay_PeakSympt
+VL_Initial,0,0,0,0,0
+VL_GrowthRate,0,0.1024,0.012412366,-0.004551201,0
+VL_PeakLevel,0,0.012412366,0.0081,-0.00297,0
+VL_DeclineRate,0,-0.004551201,-0.00297,0.005625,0
+Delay_PeakSympt,0,0,0,0,0

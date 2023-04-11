@@ -1,0 +1,32 @@
+Each row below the header of variable names describes a quarantine and testing policy for the travellers received by a given country. Cells for test types / test delays should be left blank if no tests are performed on those days.
+
+Note 1: Data for all the types of tests included must be provided in the test sensitivity file, for sufficiently many days. The sample data includes test sensitivity over time for PCR and Antigen tests.
+Note 2: In this file, a test on day N with a test delay d denotes that the test is performed on day (N - d) of entry (results becoming available on day N). Quarantine begins on day 1. Day 0, the day of travel / arrival of a traveller, is the earliest that a test can be performed (the results becoming available on day d > 0); tests performed earlier after subtracting the delay are ignored.
+Note 3: Please note that quarantine tests included on days N outside of days 1 to Q, where days 1 to Q are the quarantine days, are ignored.
+Note 4: It is possible for travellers to undergo multiple tests of different types on the same day (after accounting for delays), but only one test of each type per day.
+
+Variable - Description (assuming file is inputted for travellers to Country B):
+
+StrategyNo - Strategy number. Must be unique for each row. Please note that travellers will undergo the same StrategyNo in the policy csv files for travel from Country A to B as well as back from B to A (e.g. StrategyNo 1 in the csv for A to B with StrategyNo 1 in the csv for B to A, StrategyNo 10 with StrategyNo 10, etc.). Thus, ensure that for every StrategyNo N in the csv for A to B, there is a StrategyNo N in the csv for B to A (and vice versa).
+
+StrategyDescription - Description of strategy, for user's reference in policy table.
+
+PreTest - Type of pre-test used (test at Country A before travelling to Country B). Please do not use underscores.
+
+PreTestDelay - Test delay (in days) for pre-test. Assume same-day travel, so that a pre-test delay of 3 means the pre-test was performed 3 days before travel. Must be nonempty if a test is performed (if no delay, enter 0).
+
+EntryTest - Type of entry test used (test upon arriving at Country B). Please do not use underscores.
+
+EntryTestDelay - Test delay (in days) for entry test. Performed on same day of travel. This should generally be 0. Must be nonempty if a test is performed (if no delay, enter 0).
+
+ExitTest - Type of exit test used (test upon exiting quarantine at Country B). Please do not use underscores. Will not be carried out when there is no quarantine.
+
+ExitTestDelay - Test delay (in days) for exit test. Performed on last day of quarantine. If this delay would imply that the test was performed before day 1 of quarantine, it is not performed. Must be nonempty if a test is performed (if no delay, enter 0).
+
+QDaysMin - Minimum days of quarantine upon entry of each traveller to Country B. Quarantine starts 1 day after entry. See Note 3.
+
+QDaysMax - Maximum days of quarantine upon entry of each traveller to Country B. Quarantine starts 1 day after entry. See Note 3.
+
+QTestNameN - Type of test used whose results are received on day N of quarantine in Country B, N = 1 to L. Please do not use underscores. See Notes 2, 3 and 4.
+
+QTestDelayN - Test delay (in days) for test on day N, N = 1 to L. Must be nonempty if a test is performed (if no delay, enter 0). See Notes 2, 3 and 4.

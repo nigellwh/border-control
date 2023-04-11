@@ -1,0 +1,12 @@
+StrategyNo,StrategyDescription,PreTest,PreTestDelay,EntryTest,EntryTestDelay,ExitTest,ExitTestDelay,QDaysMin,QDaysMax,QTestName1,QTestDelay1,QTestName2,QTestDelay2,QTestName3,QTestDelay3,QTestName4,QTestDelay4,QTestName5,QTestDelay5,QTestName6,QTestDelay6,QTestName7,QTestDelay7,QTestName8,QTestDelay8,QTestName9,QTestDelay9,QTestName10,QTestDelay10,QTestName11,QTestDelay11,QTestName12,QTestDelay12,QTestName13,QTestDelay13,QTestName14,QTestDelay14,QTestName15,QTestDelay15,QTestName16,QTestDelay16,QTestName17,QTestDelay17,QTestName18,QTestDelay18,QTestName19,QTestDelay19,QTestName20,QTestDelay20,QTestName21,QTestDelay21
+1,,,,,,,,0,21,,,PCR,2,,,,,,,,,,,,,,,PCR,2,,,,,,,,,,,,,,,,,,,,,,
+2,,,,,,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,Antigen,0,,,,,,,,,,,,,,
+3,,,,,,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,,,,,,,,,,,,
+4,,PCR,3,,,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,Antigen,0,,,,,,,,,,,,,,
+5,,PCR,3,,,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,,,,,,,,,,,,
+6,,Antigen,3,,,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,Antigen,0,,,,,,,,,,,,,,
+7,,Antigen,3,,,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,,,,,,,,,,,,
+8,,PCR,3,Antigen,0,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,Antigen,0,,,,,,,,,,,,,,
+9,,PCR,3,Antigen,0,Antigen,0,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,,,,,,,,,,,,
+10,,Antigen,3,Antigen,0,,,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,Antigen,0,,,,,,,,,,,,,,
+11,,Antigen,3,Antigen,0,Antigen,0,0,21,,,PCR,2,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,Antigen,0,,,PCR,2,,,Antigen,0,,,,,,,,,,,,,,

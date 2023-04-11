@@ -1,0 +1,2 @@
+﻿VL_Initial_Dist,VL_Initial_Mean,VL_Growth_Dist,VL_Growth_Mean,VL_Peak_Dist,VL_Peak_Mean,VL_Decline_Dist,VL_Decline_Mean,Delay_PeakSympt_Dist,Delay_PeakSympt_Mean,Sympt_Prob
+Normal,1.49,Lognormal,1.18,Normal,8.14,Normal,0.69,Normal,0.6,0.6
